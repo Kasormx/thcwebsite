@@ -619,6 +619,16 @@ h6 {
       background-size: cover;
 } 
 
+.imagef {
+      background: url(https://i.imgur.com/FYfeudY.jpeg) no-repeat 50% 50%;  
+      background-size: cover;
+} 
+
+.imagefl {
+      background: url(https://i.imgur.com/GNWX2MW.jpeg) no-repeat 50% 50%; 
+      background-size: cover;
+} 
+
 /*--------------- contact form --------------- */
 
 #contact-form {
