@@ -566,7 +566,7 @@ h6 {
 /*---------------about page --------------- */
 
 .about {
-      height: 600px;
+      height: 500px;
       margin-top: 120px;
 }
 
@@ -575,49 +575,49 @@ h6 {
 }
 
 .imagek {
-      background: url(https://i.imgur.com/pOPPDkX.jpeg) no-repeat 100% 100%;
+      background: url(https://i.imgur.com/pOPPDkX.jpeg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .imagekl {
-      background: url(https://i.imgur.com/IaucZ8P.jpeg) no-repeat 100% 100%; 
+      background: url(https://i.imgur.com/IaucZ8P.jpeg) no-repeat 50% 50%; 
       background-size: cover;
 }
 
 .imageg {
-      background: url(https://i.imgur.com/BoNDvEz.jpeg) no-repeat 100% 100%;
-      background-size: cover;
-}
-
-.imagegl {
-      background: url(https://i.imgur.com/N9gpzMr.jpeg) no-repeat 100% 100%;
+      background: url(https://i.imgur.com/BoNDvEz.jpeg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .imaget {
-      background: url(https://i.imgur.com/y1lNSeo.jpeg) no-repeat 100% 100%;  
+      background: url(https://i.imgur.com/y1lNSeo.jpeg) no-repeat 50% 50%; 
       background-size: cover;
 }
 
 .imagecl {
-      background: url(https://i.imgur.com/hos0uT3.jpeg) no-repeat 100% 100%;
+      background: url(https://i.imgur.com/hos0uT3.jpeg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .imagec {
-      background: url(https://i.imgur.com/u4DYwza.jpeg) no-repeat 100% 100%; 
+      background: url(https://i.imgur.com/u4DYwza.jpeg) no-repeat 50% 50%; 
       background-size: cover;
 }
 
 .imagest {
-      background: url(https://i.imgur.com/GTlModm.jpeg) no-repeat 100% 100%; 
+      background: url(https://i.imgur.com/GTlModm.jpeg) no-repeat 50% 50%; 
       background-size: cover;
 } 
 
 .imagej {
-      background: url(https://i.imgur.com/dsuTf0m.jpeg) no-repeat 100% 100%; 
+      background: url(https://i.imgur.com/dsuTf0m.jpeg) no-repeat 50% 50%;  
       background-size: cover;
 }
+
+.imagegl {
+      background: url(https://i.imgur.com/1EvRzoQ.jpeg) no-repeat 50% 50%; 
+      background-size: cover;
+} 
 
 /*--------------- contact form --------------- */
 
