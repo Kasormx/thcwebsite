@@ -1,7 +1,7 @@
 
 /*--------------- basic styling --------------- */
 :root{
-      --background-dark: #0f0f0f;
+      --background-dark: #000000;
       --text-light: rgba(255, 255, 255, 0.6);
       --text-lighter: rgba(255, 255, 255, 0.9);
       --spacing-s: 8px;
@@ -740,7 +740,7 @@ textarea:focus {
 
 .heron-section{
       align-items: flex-start;
-      background-image: #0f0f0f;
+      background-color: #0f0f0f;
       display: flex;
       min-height: 100%;
       justify-content: center;
@@ -749,6 +749,7 @@ textarea:focus {
     
     .card-grid{
       display: grid;
+      background-color: #0f0f0f;
       grid-template-columns: repeat(1, 1fr);
       grid-column-gap: var(--spacing-l);
       grid-row-gap: var(--spacing-l);
@@ -771,6 +772,7 @@ textarea:focus {
     .card{
       list-style: none;
       position: relative;
+      background-color: #0f0f0f;
     }
     
     .card:before{
@@ -778,11 +780,13 @@ textarea:focus {
       display: block;
       padding-bottom: 150%;
       width: 100%;
+      background-color: #0f0f0f;
     }
     
     .card__background{
       background-size: cover;
       background-position: center;
+      background-color: #0f0f0f;
       border-radius: var(--spacing-l);
       bottom: 0;
       filter: brightness(0.75) saturate(1.2) contrast(0.85);
