@@ -2,120 +2,126 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>THC | Evento</title>
-  <link rel="shortcut icon" href="thc.ico">
-  <style>
-/* If you wish to remove the astonish.js file, then also be sure to remove these styles. */
-     .astonish {
-          visibility: visible;
-      }
-
-      @media (min-width: 768px) {
-          .astonish {
-               visibility: hidden;
-           }
-           .animated {
-                visibility: visible;
-           }
-       }
-</style><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
-<link rel='stylesheet' href='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/css/styles.css'>
+  <title>Eventos </title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style_evento.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<!-- Main Navigation -->
-<nav class="main-nav" id="main-nav">
- <div class="content-wrapper-sm">
-  <a href="index.html" class="navbar-brand">The House Collective</a>
-  <div id="menu-button">
-   <div class="bar1"></div>
-   <div class="bar2"></div>
-   <div class="bar3"></div>
-  </div>
-  <ul class="nav-links">
-   <li><a href="index.html">Home</a></li> 
-   <li><a href="#reserve">Tickets</a></li>   
-   <li><a href="#about">About</a></li>
-   <li><a href="#lineup">Line-Up</a></li>
-   <li><a href="#map">Ubication</a></li>
-  </ul>
- </div>
-</nav>
+<div class="app">
 
-<!-- Main header -->
-<header>
- <!-- First replaceble image -->
- <img class="img-absolute" src="https://i.imgur.com/X2GUVN4.jpeg" alt="City 1">
- <div class="wrapper astonish animated fadeInDown">
-  <h1><strong>G - Fusion</strong>2022</h1>
-  <h2> <br>
-                    Created by The House Collective.</h2>
- </div>
-</header>
+	<div class="cardList">
+		<button class="cardList__btn btn btn--left">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-left"></use>
+				</svg>
+			</div>
+		</button>
 
-<!-- Main content -->
-<main>
-     <div id="reserve" class="content-wrapper-lg text-center astonish" data-animation="zoomIn">
-          <h2 class="section-title">Buy your tickets now</h2>
-          <p>You can not miss the first edition of G - Fusion where the best exponents of electronic music will be presented, uniting the best of Tech-House, Techno, House, Riddim, Dubstep and Trap. It will be held on April 09, 2022 at Oasis Bar.</p>
-          <a href="https://gfusion2022.eventbrite.com.mx" class="btn btn-outline-purple" target="_blank">Buy Now!</a>
-         </div>
+		<div class="cards__wrapper">
+			<div onclick="location.href='g-fusion.html'" class="card current--card">
+				<div class="card__image">
+					<img src="https://i.imgur.com/X2GUVN4.jpeg" alt="gfusion" />
+				</div>
+			</div>
 
- <div class="content-wrapper" id="about">
-     <!-- second replaceble image -->
-     <img class="img-absolute" src="https://cdn.pixabay.com/photo/2015/09/09/18/02/chinese-lantern-932217_960_720.jpg" alt="City 2">
-     <div class="grid">
-      <div class="grid-col-sm-12 grid-col-md-6 astonish" data-animation="fadeInLeft">
-       <h2 class="section-title">About G - Fusion 2022</h2>
-       <p>The House Collective Presents: G - Fusion 2022 an Electronic Music event that seeks to publicize new emerging artists. 
-          We will have two stages of "Reggaeton", "Tech-House" and much more genres.  <br>
-            <br>The Date: 09/04/22 <br>
-            Timetable: 6 pm a 2 am 
-      </div>
-     </div>
-    </div>
+			<div class="card next--card">
+				<div class="card__image">
+					<img src="https://i.imgur.com/MF2Apgc.jpeg" alt="springfest" />
+				</div>
+			</div>
 
-    <!-- Main content -->
-<main>
-     <div id="lineup" class="content-wrapper-lg text-center astonish" data-animation="zoomIn">
-          <h2 class="section-title">Here will be the official line up soon</h2>
-          <p></p>
-         </div>
+			<div class="card previous--card">
+				<div class="card__image">
+					
+				</div>
+			</div>
+		</div>
 
- 
-  <!-- Custom form, important note: you will need additional code in order to make this form work -->
+		<button class="cardList__btn btn btn--right">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-right"></use>
+				</svg>
+			</div>
+		</button>
+	</div>
+
+	<div class="infoList">
+		<div class="info__wrapper" >
+			<div class="info current--info">
+				<h1 class="text name">G - Fusion</h1>
+				<h4 class="text location">Monterrey, N.L</h4>
+				<p class="text description">Oasis</p>
+			</div>
+
+			<div class="info next--info">
+				<h1 class="text name">Spring Fest</h1>
+				<h4 class="text location">Tamaulipas</h4>
+				<p class="text description">Plaza Aaron Saenz</p>
+			</div>
+
+			<div class="info previous--info">
+				<h1 class="text name">Coming Soon</h1>
+				<h4 class="text location">---</h4>
+				<p class="text description">---</p>
+			</div>
+		</div>
+	</div>
 
 
- <!-- This is an embedded Google map, this is easily customizable especially if you get a Google API key, this will allow for more customizable features. -->
- <center><h2 class="section-title">Ubication</h2>
-          <p>Oasis Bar</p></center>
- <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3594.4038779689386!2d-100.19540918466626!3d25.72415421643112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662ea49fbd71e8d%3A0xe0ead8951fb1614a!2sBlvd.%20Acapulco%20101%2C%20Eduardo%20Caballero%2C%2067117%20Guadalupe%2C%20N.L.!5e0!3m2!1ses-419!2smx!4v1647332710889!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</main>
 
-<!-- Main footer -->
-<footer>
- <div class="content-wrapper-sm display-flex-between">
-  <!-- Easily replaceble copyright information -->
-  <small>Created by Kasor 2021.</small>
+	<div class="app__bg">
+		<div class="app__bg__image current--image">
+			<img src="https://i.imgur.com/5niFvLE.jpeg" alt="gfusion" />
+		</div>
+		<div class="app__bg__image next--image">
+			<img src="https://i.imgur.com/MF2Apgc.jpeg" alt="springfest" />
+		</div>
+		<div class="app__bg__image previous--image">
+			<img src="https://i.imgur.com/S684I97.png" alt="" />
+		</div>
+	</div>
+</div>
 
-  <!-- Make sure to edit the links so that they go to your social media. -->
-  <div class="social-links">
-   <ul>
-    <li><a href="https://www.facebook.com/HouseCollectiveRecs"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-    <li><a href="https://www.twitter.com/flackasor"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    <li><a href="https://www.instagram.com/the.house.collective/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
-   </ul>
-  </div>
- </div>
-</footer>
+<div class="loading__wrapper">
+	<div class="loader--text">Loading...</div>
+	<div class="loader">
+		<span></span>
+	</div>
+</div>
+
+
+<svg class="icons" style="display: none;">
+	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='328 112 184 256 328 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='184 112 328 256 184 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+</svg>
+
+
+
+
+
+
+
+
+
+
+
+<div class="support">
+	<a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+	<a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+</div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/astonish.js'></script>
-<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/menu.js'></script>
-<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/nav.js'></script>
-<script src='https://rawgit.com/Jesus-E-Rodriguez/cityscapes-landing-page/master/js/scroll.js'></script>
+  <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./script_evento.js"></script>
+
 </body>
 </html>
